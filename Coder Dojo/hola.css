@@ -1,0 +1,53 @@
+body{
+            width: 90%;
+            margin: 0 auto;
+
+        background: #e0d8d8;
+        
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+            min-height: 600px;
+            max-height: 800px;
+            position: relative;
+            display: grid;
+            grid-template-rows: 100px 1fr;
+            color: #fff;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAABAgMEAP/EADEQAAEDAgQEBQMDBQAAAAAAAAEAAhEDIRIxQVEiYXGBEzJCkfChscFS0eEEFIKy8f/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AdzqlN+EgvaPomxmoSaTydg4J3NkyTiI20XBpBjCZGoUKK17wYcD1aUjqjmuAM4dwZ91WGxAAjul8KHXa3LQIB4lRrzPCOV1OrULhBLnDO8iFbDJAiQLSFKq0hvEMjvKDLNr6JyWl4DT5Y+y7DmOySMOH58yQaweET+lTqTwjcJmusAdlNx445oFpEGJsdlQKdPX5dUgSb6oNYqgyA4c4K7HHmIP+SwvqQYbFtCSgKzsob3KDcXtb6gUpqtIv+6y46jsmX3Fvylx1P0R0KDX4t7A+yWq6WR+FlNSPSO8oipib6UALuMi0IOiRpoh6wCEs5zpdBpp5g7WU3eZGkeHug+c4yQBpIxclSxJvqpB1zzOipczhyQOaYmCOxXeDs0d7JhVaXeqYm+SXxWmM4n2QDw5IiPbJB1OTYCTomfVa03xAxog+s0iJegUMcDl2QLIkgjLdOHszuOqZwlkCSTGYQZ3yScIuUouHA6qppOzPtKVjDimCc8kDUpAv1KarlMTdBhixvbZEuBM39kCYZc6ROqcNaPN90oIJBvlcwU7SHDJBOmIqC+hH0TRxADdcxoJBRG6BDxQZtF0v0+BM4QEsHAIOqB8m3noFUQQJynQqWlhBn59kXeWJjUoKQG5gzvFlzaZI83NZwC24cT0P8osq3kuceRKCxZjF9N0vhgCcidWrhWw5sdHKCu/um2ILhOd4/KAeG3QuHVyq2nA8zr3zCQf1DHHJx6OVWEuEhr+wlBFhII7qmHhEHO6SnJwwMv8AiqbwBoghVbFtIuk9AkaqrzhuNj1zSTAiNUAAMXTGzQIJPIpxZowi5QBAMweyCWE4pOqLjJET0mVY3yaT3H7LhEXlpQSggWEdkwaYtnoqCmCNjpCIbBBFxzCCYaTOIAdpTtptiSLnZv8AKfAR6huLSFdlNuG7voUGFmbQqNOUaXJ7pGASqNAB6hAjwJg8wpzZ1469k7s45JMIg/NAge4HOfyiANYK6P8AYBEDC4RqEAydYHpyXGoHCJPQGE8THRBoBcJ1QTNQNsD7IGoTIl0nkncYdh05oBoBMTKANe4SCTOllQOGv2QwiBmqUycKD//Z);
+            z-index: -1;
+        }
+        .nav{
+            height: 100%;
+    display: flex;
+    align-items: center;
+    
+        }
+        .elemento{
+            margin-left: auto;
+            font-size: 28px;
+        }
+        .imagen{
+            max-width: 1000px;
+            min-width: 1000px;
+            
+    
+        }
+        .textito{
+            text-align: center;
+        }
+        main{
+            width: 900px;
+            margin: 0 auto;
+        }
+        .boton{
+            margin: center;
+        }
